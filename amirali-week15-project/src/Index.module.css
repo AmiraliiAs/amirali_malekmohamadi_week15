@@ -1,0 +1,33 @@
+.wrapper {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.input_wrapper {
+  position: relative;
+  width: 90%;
+}
+
+.main_input {
+  width: 100%;
+  font-size: 20px;
+  padding: 8px 12px;
+  border: 2px solid #e69ac0;
+  border-radius: 6px;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: transparent;
+  position: relative;
+  z-index: 2;
+}
+
+.ghost_text {
+  position: absolute;
+  top: 10px;
+  left: 14px;
+  font-size: 20px;
+  color: #7a7a7a;
+  pointer-events: none;
+  z-index: 1;
+  white-space: pre;
+}
